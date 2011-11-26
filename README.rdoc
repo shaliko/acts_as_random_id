@@ -46,4 +46,4 @@ You can specify a range of transfer method "acts_as_random_id" block where the g
 
 ==License 
 
-Copyright (c) 2009 hashtrain.com and author idea Stanislav Pogrebnyak (stanislav.pogrebnyak@gmail.com), released under the MIT license.
+Copyright (c) 2009-2011 Shalva Usubov and author idea Stanislav Pogrebnyak (stanislav.pogrebnyak@gmail.com), released under the MIT license.
