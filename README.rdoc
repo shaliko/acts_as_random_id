@@ -1,5 +1,7 @@
 =ActsAsRandomId
 
+{<img src="https://secure.travis-ci.org/shaliko/acts_as_random_id.png" />}[http://travis-ci.org/shaliko/acts_as_random_id]
+
 Generating unique random id for ActiveRecord models
 
 ==Example
