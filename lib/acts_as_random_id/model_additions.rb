@@ -3,6 +3,9 @@ module ActsAsRandomId
     def self.included(base)
       base.send :extend, ClassMethods
 
+      # Handles a generate unique ID 
+      # @param [Hash] options. The default format is "!{:field => :id}".
+      # @return [Integer, String] the value of unique ID.
       def ensure_unique_id(options)
         begin
           self.send "#{options[:field]}=", yield
@@ -11,8 +14,11 @@ module ActsAsRandomId
     end
 
     module ClassMethods
-      # Default options:
-      # :field => :id
+      # Handles a choice of the generator
+      # @scope class
+      # @param [Hash] options. The default format is "!{:field => :id}".
+      # @param [Proc] &block
+      # @return [Integer, String] the value of unique ID.
       def acts_as_random_id(options={:field => :id}, &block)
         before_create do |record|
           if block
