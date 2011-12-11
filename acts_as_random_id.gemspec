@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.version     = ActsAsRandomId::VERSION
   s.authors     = ["Shaliko Usubov"]
   s.email       = ["shaliko@ezid.ru"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/shaliko/acts_as_random_id"
   s.summary     = %q{Generating random id}
-  s.description = %q{Generating random id}
+  s.description = %q{Random ID generator}
 
   s.rubyforge_project = "acts_as_random_id"
 
